@@ -1,0 +1,794 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <ScrollView
+
+
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+
+    android:id="@+id/parent_layout">
+
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            android:background="@color/colorPrimary"
+            android:elevation="2dp">
+
+            <TextView
+                android:id="@+id/tv_actionBar"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="17dp"
+                android:layout_marginTop="16dp"
+                android:text=""
+                android:textColor="@color/White"
+                android:textSize="20sp"
+                android:textStyle="bold" />
+        </LinearLayout>
+
+        <androidx.cardview.widget.CardView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="6dp"
+            android:layout_marginTop="15dp"
+            android:layout_marginRight="6dp"
+            android:layout_marginBottom="15dp"
+            app:cardCornerRadius="6dp"
+            app:cardElevation="6dp">
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+
+                <AutoCompleteTextView
+                    android:id="@+id/actv.course1"
+                    android:layout_width="380dp"
+                    android:layout_height="60dp"
+
+                    android:layout_marginStart="15dp"
+                    android:layout_marginTop="10dp"
+                    android:layout_marginEnd="60dp"
+                    android:layout_marginBottom="10dp"
+                    android:background="@drawable/et_background"
+                    android:completionThreshold="1"
+                    android:hint="@string/course1"
+                    android:paddingStart="18dp"
+                    android:paddingEnd="1dp" />
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content">
+
+                    <EditText
+                        android:id="@+id/et_credit1"
+                        android:layout_width="150dp"
+                        android:layout_height="wrap_content"
+                        android:layout_marginStart="14dp"
+                        android:layout_marginTop="5dp"
+                        android:layout_marginBottom="10dp"
+                        android:background="@drawable/et_background"
+                        android:hint="@string/credit"
+                        android:inputType="numberDecimal"
+                        android:paddingStart="18dp"
+                        android:paddingEnd="8dp"
+                        android:textAlignment="viewEnd" />
+
+                    <EditText
+                        android:id="@+id/et_grade1"
+                        android:layout_width="150dp"
+                        android:layout_height="wrap_content"
+                        android:layout_marginStart="80dp"
+                        android:layout_marginTop="5dp"
+                        android:layout_marginBottom="10dp"
+                        android:background="@drawable/et_background"
+                        android:digits="@string/possible_grades"
+                        android:hint="@string/grade"
+                        android:inputType="textCapCharacters"
+                        android:maxLength="1"
+                        android:paddingStart="18dp"
+                        android:paddingEnd="8dp"
+                        android:textAlignment="viewEnd"
+                        android:textColorHint="#aaa" />
+
+                </LinearLayout>
+
+            </LinearLayout>
+
+
+        </androidx.cardview.widget.CardView>
+
+
+        <androidx.cardview.widget.CardView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="6dp"
+            android:layout_marginTop="15dp"
+            android:layout_marginRight="6dp"
+            android:layout_marginBottom="15dp"
+            app:cardCornerRadius="6dp"
+            app:cardElevation="6dp">
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+
+                <AutoCompleteTextView
+                    android:id="@+id/actv.course2"
+                    android:layout_width="380dp"
+                    android:layout_height="60dp"
+
+                    android:layout_marginStart="15dp"
+                    android:layout_marginTop="10dp"
+                    android:layout_marginEnd="60dp"
+                    android:layout_marginBottom="10dp"
+                    android:background="@drawable/et_background"
+                    android:completionThreshold="1"
+                    android:hint="@string/course2"
+                    android:paddingStart="18dp"
+                    android:paddingEnd="1dp" />
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content">
+
+                    <EditText
+                        android:id="@+id/et_credit2"
+                        android:layout_width="150dp"
+                        android:layout_height="wrap_content"
+                        android:layout_marginStart="14dp"
+                        android:layout_marginTop="5dp"
+                        android:layout_marginBottom="10dp"
+                        android:background="@drawable/et_background"
+                        android:hint="@string/credit"
+                        android:inputType="numberDecimal"
+                        android:paddingStart="18dp"
+                        android:paddingEnd="8dp"
+                        android:textAlignment="viewEnd" />
+
+                    <EditText
+                        android:id="@+id/et_grade2"
+                        android:layout_width="150dp"
+                        android:layout_height="wrap_content"
+                        android:layout_marginStart="80dp"
+                        android:layout_marginTop="5dp"
+                        android:layout_marginBottom="10dp"
+                        android:background="@drawable/et_background"
+                        android:digits="@string/possible_grades"
+                        android:hint="@string/grade"
+                        android:inputType="textCapCharacters"
+                        android:maxLength="1"
+                        android:paddingStart="18dp"
+                        android:paddingEnd="8dp"
+                        android:textAlignment="viewEnd" />
+
+                </LinearLayout>
+
+            </LinearLayout>
+
+
+        </androidx.cardview.widget.CardView>
+
+
+        <androidx.cardview.widget.CardView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="6dp"
+            android:layout_marginTop="15dp"
+            android:layout_marginRight="6dp"
+            android:layout_marginBottom="15dp"
+            app:cardCornerRadius="6dp"
+            app:cardElevation="6dp">
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+
+                <AutoCompleteTextView
+                    android:id="@+id/actv.course3"
+                    android:layout_width="380dp"
+                    android:layout_height="60dp"
+
+                    android:layout_marginStart="15dp"
+                    android:layout_marginTop="10dp"
+                    android:layout_marginEnd="60dp"
+                    android:layout_marginBottom="10dp"
+                    android:background="@drawable/et_background"
+                    android:completionThreshold="1"
+                    android:hint="@string/course3"
+                    android:paddingStart="18dp"
+                    android:paddingEnd="1dp" />
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content">
+
+                    <EditText
+                        android:id="@+id/et_credit3"
+                        android:layout_width="150dp"
+                        android:layout_height="wrap_content"
+                        android:layout_marginStart="14dp"
+                        android:layout_marginTop="5dp"
+                        android:layout_marginBottom="10dp"
+                        android:background="@drawable/et_background"
+                        android:hint="@string/credit"
+                        android:inputType="numberDecimal"
+                        android:paddingStart="18dp"
+                        android:paddingEnd="8dp"
+                        android:textAlignment="viewEnd" />
+
+                    <EditText
+                        android:id="@+id/et_grade3"
+                        android:layout_width="150dp"
+                        android:layout_height="wrap_content"
+                        android:layout_marginStart="80dp"
+                        android:layout_marginTop="5dp"
+                        android:layout_marginBottom="10dp"
+                        android:background="@drawable/et_background"
+                        android:digits="@string/possible_grades"
+                        android:hint="@string/grade"
+                        android:inputType="textCapCharacters"
+                        android:maxLength="1"
+                        android:paddingStart="18dp"
+                        android:paddingEnd="8dp"
+                        android:textAlignment="viewEnd" />
+
+                </LinearLayout>
+
+            </LinearLayout>
+
+
+        </androidx.cardview.widget.CardView>
+
+
+        <androidx.cardview.widget.CardView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="6dp"
+            android:layout_marginTop="15dp"
+            android:layout_marginRight="6dp"
+            android:layout_marginBottom="15dp"
+            app:cardCornerRadius="6dp"
+            app:cardElevation="6dp">
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+
+                <AutoCompleteTextView
+                    android:id="@+id/actv.course4"
+                    android:layout_width="380dp"
+                    android:layout_height="60dp"
+                    android:layout_marginStart="15dp"
+                    android:layout_marginTop="10dp"
+                    android:layout_marginEnd="60dp"
+                    android:layout_marginBottom="10dp"
+                    android:background="@drawable/et_background"
+                    android:completionThreshold="1"
+                    android:hint="@string/course4"
+                    android:paddingStart="18dp"
+                    android:paddingEnd="1dp" />
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content">
+
+                    <EditText
+                        android:id="@+id/et_credit4"
+                        android:layout_width="150dp"
+                        android:layout_height="wrap_content"
+                        android:layout_marginStart="14dp"
+                        android:layout_marginTop="5dp"
+                        android:layout_marginBottom="10dp"
+                        android:background="@drawable/et_background"
+                        android:hint="@string/credit"
+                        android:inputType="numberDecimal"
+                        android:paddingStart="18dp"
+                        android:paddingEnd="8dp"
+                        android:textAlignment="viewEnd" />
+
+                    <EditText
+                        android:id="@+id/et_grade4"
+                        android:layout_width="150dp"
+                        android:layout_height="wrap_content"
+                        android:layout_marginStart="80dp"
+                        android:layout_marginTop="5dp"
+                        android:layout_marginBottom="10dp"
+                        android:background="@drawable/et_background"
+                        android:digits="@string/possible_grades"
+                        android:hint="@string/grade"
+                        android:inputType="textCapCharacters"
+                        android:maxLength="1"
+                        android:paddingStart="18dp"
+                        android:paddingEnd="8dp"
+                        android:textAlignment="viewEnd" />
+
+                </LinearLayout>
+
+            </LinearLayout>
+
+
+        </androidx.cardview.widget.CardView>
+
+
+        <androidx.cardview.widget.CardView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="6dp"
+            android:layout_marginTop="15dp"
+            android:layout_marginRight="6dp"
+            android:layout_marginBottom="15dp"
+            app:cardCornerRadius="6dp"
+            app:cardElevation="6dp">
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+
+                <AutoCompleteTextView
+                    android:id="@+id/actv.course5"
+                    android:layout_width="380dp"
+                    android:layout_height="60dp"
+                    android:layout_marginStart="15dp"
+                    android:layout_marginTop="10dp"
+                    android:layout_marginEnd="60dp"
+                    android:layout_marginBottom="10dp"
+                    android:background="@drawable/et_background"
+                    android:completionThreshold="1"
+                    android:hint="@string/course5"
+                    android:paddingStart="18dp"
+                    android:paddingEnd="1dp" />
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content">
+
+                    <EditText
+                        android:id="@+id/et_credit5"
+                        android:layout_width="150dp"
+                        android:layout_height="wrap_content"
+                        android:layout_marginStart="14dp"
+                        android:layout_marginTop="5dp"
+                        android:layout_marginBottom="10dp"
+                        android:background="@drawable/et_background"
+                        android:hint="@string/credit"
+                        android:inputType="numberDecimal"
+                        android:paddingStart="18dp"
+                        android:paddingEnd="8dp"
+                        android:textAlignment="viewEnd" />
+
+                    <EditText
+                        android:id="@+id/et_grade5"
+                        android:layout_width="150dp"
+                        android:layout_height="wrap_content"
+                        android:layout_marginStart="80dp"
+                        android:layout_marginTop="5dp"
+                        android:layout_marginBottom="10dp"
+                        android:background="@drawable/et_background"
+                        android:digits="@string/possible_grades"
+                        android:hint="@string/grade"
+                        android:inputType="textCapCharacters"
+                        android:maxLength="1"
+                        android:paddingStart="18dp"
+                        android:paddingEnd="8dp"
+                        android:textAlignment="viewEnd" />
+
+                </LinearLayout>
+
+            </LinearLayout>
+
+
+        </androidx.cardview.widget.CardView>
+
+
+        <androidx.cardview.widget.CardView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="6dp"
+            android:layout_marginTop="15dp"
+            android:layout_marginRight="6dp"
+            android:layout_marginBottom="15dp"
+            app:cardCornerRadius="6dp"
+            app:cardElevation="6dp">
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+
+                <AutoCompleteTextView
+                    android:id="@+id/actv.course6"
+                    android:layout_width="380dp"
+                    android:layout_height="60dp"
+                    android:layout_marginStart="15dp"
+                    android:layout_marginTop="10dp"
+                    android:layout_marginEnd="60dp"
+                    android:layout_marginBottom="10dp"
+                    android:background="@drawable/et_background"
+                    android:completionThreshold="1"
+                    android:hint="@string/course6"
+                    android:paddingStart="18dp"
+                    android:paddingEnd="1dp" />
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content">
+
+                    <EditText
+                        android:id="@+id/et_credit6"
+                        android:layout_width="150dp"
+                        android:layout_height="wrap_content"
+                        android:layout_marginStart="14dp"
+                        android:layout_marginTop="5dp"
+                        android:layout_marginBottom="10dp"
+                        android:background="@drawable/et_background"
+                        android:hint="@string/credit"
+                        android:inputType="numberDecimal"
+                        android:paddingStart="18dp"
+                        android:paddingEnd="8dp"
+                        android:textAlignment="viewEnd" />
+
+                    <EditText
+                        android:id="@+id/et_grade6"
+                        android:layout_width="150dp"
+                        android:layout_height="wrap_content"
+                        android:layout_marginStart="80dp"
+                        android:layout_marginTop="5dp"
+                        android:layout_marginBottom="10dp"
+                        android:background="@drawable/et_background"
+                        android:digits="@string/possible_grades"
+                        android:hint="@string/grade"
+                        android:inputType="textCapCharacters"
+                        android:maxLength="1"
+                        android:paddingStart="18dp"
+                        android:paddingEnd="8dp"
+                        android:textAlignment="viewEnd" />
+
+                </LinearLayout>
+
+            </LinearLayout>
+
+
+        </androidx.cardview.widget.CardView>
+
+
+        <androidx.cardview.widget.CardView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="6dp"
+            android:layout_marginTop="15dp"
+            android:layout_marginRight="6dp"
+            android:layout_marginBottom="15dp"
+            app:cardCornerRadius="6dp"
+            app:cardElevation="6dp">
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+
+                <AutoCompleteTextView
+                    android:id="@+id/actv.course7"
+                    android:layout_width="380dp"
+                    android:layout_height="60dp"
+                    android:layout_marginStart="15dp"
+                    android:layout_marginTop="10dp"
+                    android:layout_marginEnd="60dp"
+                    android:layout_marginBottom="10dp"
+                    android:background="@drawable/et_background"
+                    android:completionThreshold="1"
+                    android:hint="@string/course7"
+                    android:paddingStart="18dp"
+                    android:paddingEnd="1dp" />
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content">
+
+                    <EditText
+                        android:id="@+id/et_credit7"
+                        android:layout_width="150dp"
+                        android:layout_height="wrap_content"
+                        android:layout_marginStart="14dp"
+                        android:layout_marginTop="5dp"
+                        android:layout_marginBottom="10dp"
+                        android:background="@drawable/et_background"
+                        android:hint="@string/credit"
+                        android:inputType="numberDecimal"
+                        android:paddingStart="18dp"
+                        android:paddingEnd="8dp"
+                        android:textAlignment="viewEnd" />
+
+                    <EditText
+                        android:id="@+id/et_grade7"
+                        android:layout_width="150dp"
+                        android:layout_height="wrap_content"
+                        android:layout_marginStart="80dp"
+                        android:layout_marginTop="5dp"
+                        android:layout_marginBottom="10dp"
+                        android:background="@drawable/et_background"
+                        android:digits="@string/possible_grades"
+                        android:hint="@string/grade"
+                        android:inputType="textCapCharacters"
+                        android:maxLength="1"
+                        android:paddingStart="18dp"
+                        android:paddingEnd="8dp"
+                        android:textAlignment="viewEnd" />
+
+                </LinearLayout>
+
+            </LinearLayout>
+
+
+        </androidx.cardview.widget.CardView>
+
+
+        <androidx.cardview.widget.CardView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="6dp"
+            android:layout_marginTop="15dp"
+            android:layout_marginRight="6dp"
+            android:layout_marginBottom="15dp"
+            app:cardCornerRadius="6dp"
+            app:cardElevation="6dp">
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+
+                <AutoCompleteTextView
+                    android:id="@+id/actv.course8"
+                    android:layout_width="380dp"
+                    android:layout_height="60dp"
+                    android:layout_marginStart="15dp"
+                    android:layout_marginTop="10dp"
+                    android:layout_marginEnd="60dp"
+                    android:layout_marginBottom="10dp"
+                    android:background="@drawable/et_background"
+                    android:completionThreshold="1"
+                    android:hint="@string/course8"
+                    android:paddingStart="18dp"
+                    android:paddingEnd="1dp" />
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content">
+
+                    <EditText
+                        android:id="@+id/et_credit8"
+                        android:layout_width="150dp"
+                        android:layout_height="wrap_content"
+                        android:layout_marginStart="14dp"
+                        android:layout_marginTop="5dp"
+                        android:layout_marginBottom="10dp"
+                        android:background="@drawable/et_background"
+                        android:hint="@string/credit"
+                        android:inputType="numberDecimal"
+                        android:paddingStart="18dp"
+                        android:paddingEnd="8dp"
+                        android:textAlignment="viewEnd" />
+
+                    <EditText
+                        android:id="@+id/et_grade8"
+                        android:layout_width="150dp"
+                        android:layout_height="wrap_content"
+                        android:layout_marginStart="80dp"
+                        android:layout_marginTop="5dp"
+                        android:layout_marginBottom="10dp"
+                        android:background="@drawable/et_background"
+                        android:digits="@string/possible_grades"
+                        android:hint="@string/grade"
+                        android:inputType="textCapCharacters"
+                        android:maxLength="1"
+                        android:paddingStart="18dp"
+                        android:paddingEnd="8dp"
+                        android:textAlignment="viewEnd" />
+
+                </LinearLayout>
+
+            </LinearLayout>
+
+
+        </androidx.cardview.widget.CardView>
+
+
+        <androidx.cardview.widget.CardView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="6dp"
+            android:layout_marginTop="15dp"
+            android:layout_marginRight="6dp"
+            android:layout_marginBottom="15dp"
+            app:cardCornerRadius="6dp"
+            app:cardElevation="6dp">
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+
+                <AutoCompleteTextView
+                    android:id="@+id/actv.course9"
+                    android:layout_width="380dp"
+                    android:layout_height="60dp"
+                    android:layout_marginStart="15dp"
+                    android:layout_marginTop="10dp"
+                    android:layout_marginEnd="60dp"
+                    android:layout_marginBottom="10dp"
+                    android:background="@drawable/et_background"
+                    android:completionThreshold="1"
+                    android:hint="@string/course9"
+                    android:paddingStart="18dp"
+                    android:paddingEnd="1dp" />
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content">
+
+                    <EditText
+                        android:id="@+id/et_credit9"
+                        android:layout_width="150dp"
+                        android:layout_height="wrap_content"
+                        android:layout_marginStart="14dp"
+                        android:layout_marginTop="5dp"
+                        android:layout_marginBottom="10dp"
+                        android:background="@drawable/et_background"
+                        android:hint="@string/credit"
+                        android:inputType="numberDecimal"
+                        android:paddingStart="18dp"
+                        android:paddingEnd="8dp"
+                        android:textAlignment="viewEnd" />
+
+                    <EditText
+                        android:id="@+id/et_grade9"
+                        android:layout_width="150dp"
+                        android:layout_height="wrap_content"
+                        android:layout_marginStart="80dp"
+                        android:layout_marginTop="5dp"
+                        android:layout_marginBottom="10dp"
+                        android:background="@drawable/et_background"
+                        android:digits="@string/possible_grades"
+                        android:hint="@string/grade"
+                        android:inputType="textCapCharacters"
+                        android:maxLength="1"
+                        android:paddingStart="18dp"
+                        android:paddingEnd="8dp"
+                        android:textAlignment="viewEnd" />
+
+                </LinearLayout>
+
+            </LinearLayout>
+
+
+        </androidx.cardview.widget.CardView>
+
+
+        <androidx.cardview.widget.CardView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="6dp"
+            android:layout_marginTop="15dp"
+            android:layout_marginRight="6dp"
+            android:layout_marginBottom="15dp"
+            app:cardCornerRadius="6dp"
+            app:cardElevation="6dp">
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+
+                <AutoCompleteTextView
+                    android:id="@+id/actv.course10"
+                    android:layout_width="380dp"
+                    android:layout_height="60dp"
+                    android:layout_marginStart="15dp"
+                    android:layout_marginTop="10dp"
+                    android:layout_marginEnd="60dp"
+                    android:layout_marginBottom="10dp"
+                    android:background="@drawable/et_background"
+                    android:completionThreshold="1"
+                    android:hint="@string/course10"
+                    android:paddingStart="18dp"
+                    android:paddingEnd="1dp" />
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content">
+
+                    <EditText
+                        android:id="@+id/et_credit10"
+                        android:layout_width="150dp"
+                        android:layout_height="wrap_content"
+                        android:layout_marginStart="14dp"
+                        android:layout_marginTop="5dp"
+                        android:layout_marginBottom="10dp"
+                        android:background="@drawable/et_background"
+                        android:hint="@string/credit"
+                        android:inputType="numberDecimal"
+                        android:paddingStart="18dp"
+                        android:paddingEnd="8dp"
+                        android:textAlignment="viewEnd" />
+
+                    <EditText
+                        android:id="@+id/et_grade10"
+                        android:layout_width="150dp"
+                        android:layout_height="wrap_content"
+                        android:layout_marginStart="80dp"
+                        android:layout_marginTop="5dp"
+                        android:layout_marginBottom="10dp"
+                        android:background="@drawable/et_background"
+                        android:digits="@string/possible_grades"
+                        android:hint="@string/grade"
+                        android:inputType="textCapCharacters"
+                        android:maxLength="1"
+                        android:paddingStart="18dp"
+                        android:paddingEnd="8dp"
+                        android:textAlignment="viewEnd" />
+
+                </LinearLayout>
+
+            </LinearLayout>
+
+
+        </androidx.cardview.widget.CardView>
+
+        <Button
+            android:id="@+id/btn_calcGPA"
+            android:layout_width="280dp"
+            android:layout_height="68dp"
+            android:layout_marginStart="70dp"
+            android:layout_marginTop="40dp"
+            android:layout_marginEnd="160dp"
+            android:layout_marginBottom="66dp"
+            android:background="@drawable/bg_calc_button"
+            android:text="@string/calculate_gpa"
+            android:textAllCaps="false"
+            android:textColor="@color/White"
+            android:textSize="22sp" />
+
+    </LinearLayout>
+
+
+</ScrollView>
+
+<com.google.android.gms.ads.AdView
+    xmlns:ads="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/adView"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_centerHorizontal="true"
+    android:layout_alignParentBottom="true"
+    ads:adSize="BANNER"
+    ads:adUnitId="ca-app-pub-3665830956202942/1068014482">
+
+</com.google.android.gms.ads.AdView>
+
+</RelativeLayout>

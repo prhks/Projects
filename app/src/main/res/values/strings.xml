@@ -1,0 +1,146 @@
+<resources>
+    <string name="app_name">CGPA Calc</string>
+    <string name="semester_1">Semester I</string>
+    <string name="semester_2">Semester II</string>
+    <string name="semester_8">Semester VIII</string>
+    <string name="semester_7">Semester VII</string>
+    <string name="semester_6">Semester VI</string>
+    <string name="semester_5">Semester V</string>
+    <string name="semester_4">Semester IV</string>
+    <string name="semester_3">Semester III</string>
+    <string name="my_cgpa">My CGPA</string>
+    <string name="course1">Course 1</string>
+    <string name="course2">Course 2</string>
+    <string name="course3">Course 3</string>
+    <string name="course4">Course 4</string>
+    <string name="course5">Course 5</string>
+    <string name="course6">Course 6</string>
+    <string name="course7">Course 7</string>
+    <string name="course8">Course 8</string>
+    <string name="course9">Course 9</string>
+    <string name="course10">Course 10</string>
+    <string name="credit">Credit</string>
+    <string name="grade">Grade</string>
+    <string name="calculate_gpa">Calculate GPA</string>
+    <string name="welcome_screen">Welcome Screen !!</string>
+    <string name="possible_grades">ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz</string>
+
+
+    <string-array name="CourseName">
+        <item>	Analog Circuits </item>
+        <item>	Analog Communication Systems </item>
+        <item>	Antenna and Wave Propagation </item>
+        <item>	Antenna Theory </item>
+        <item>	Anthropology for Engineers </item>
+        <item>	Applied Linear Algebra </item>
+        <item>	Artificial Intelligence </item>
+        <item>	Calculus and Laplace Transform </item>
+        <item>	Communication for Technical Professionals </item>
+        <item>	Computational Physics  </item>
+        <item>	Computer Architecture and Organisation </item>
+        <item>	Cryptography and Network Security </item>
+        <item>	Data Analysis and Interpretation </item>
+        <item>	Data Structures </item>
+        <item>	Database Management System </item>
+        <item>	DC Machines and Transformers </item>
+        <item>	Design and Analysis of Algorithm </item>
+        <item>	Differential and Difference Equations </item>
+        <item>	Digital Logic Design </item>
+        <item>	Discrete Mathematics and Graph Theory </item>
+        <item>	Electric Circuits and Systems </item>
+        <item>	Electrodynamics and Optics </item>
+        <item>	Electron Devices and Circuits </item>
+        <item>	Emotional Intelligence </item>
+        <item>	Energy and Environmental Physics </item>
+        <item>	Engineering Chemistry </item>
+        <item>	Engineering Design </item>
+        <item>	Engineering Electromagnetics </item>
+        <item>	Engineering Graphics </item>
+        <item>	Engineering Physics </item>
+        <item>	Environmental Science </item>
+        <item>	Ethics and Values </item>
+        <item>	Financial Management </item>
+        <item>	Forensic Science </item>
+        <item>	Fuels and Combustion </item>
+        <item>	Fundamental of Manufacturing Processes </item>
+        <item>	Introduction to Problem Solving </item>
+        <item>	Introduction to Soft Skills </item>
+        <item>	Java Programming </item>
+        <item>	Linear Integrated Circuits </item>
+        <item>	Materials and Instrumental Techniques </item>
+        <item>	Microprocessors and Microcontrollers </item>
+        <item>	Mobile Application Development </item>
+        <item>	Modern Physics </item>
+        <item>	Network Analysis </item>
+        <item>	New Product Development </item>
+        <item>	Object Oriented Programming using C++ </item>
+        <item>	Operating System </item>
+        <item>	Operation Research </item>
+        <item>	Optimization Techniques </item>
+        <item>	Power Electronics </item>
+        <item>	Principles of Digital Communication </item>
+        <item>	Probability, Statistics and Reliability </item>
+        <item>	Programming in C </item>
+        <item>	Project Exhibition I </item>
+        <item>	Project Exhibition II </item>
+        <item>	Psychology and Sociology </item>
+        <item>	Python Programming </item>
+        <item>	Quantum Mechanics and Statistical Mechanics </item>
+        <item>	Semiconductor Devices </item>
+        <item>	Signals and Systems </item>
+        <item>	Software Systems Lab </item>
+        <item>	Strength of Materials </item>
+        <item>	Swacch Bharat </item>
+        <item>	Technical Writing and Composition </item>
+        <item>	Theory Of Computation and Compiler Design </item>
+        <item>	Workshop Practice-1 </item>
+        <item>	Workshop Practice-2 </item>
+        <item>	Microwave Engineering </item>
+        <item>	Introduction to Material Science and Engineering </item>
+        <item>	Fluid Mechanics </item>
+        <item>	Partial Differential Equations </item>
+        <item>	Mechanics of Solids </item>
+        <item>	Heat Transfer </item>
+        <item>	Design of Machine Elements </item>
+        <item>	IC Engines </item>
+        <item>	Power Plant Engineering </item>
+        <item>	Robotics </item>
+        <item>	Computational Fluid Dynamics </item>
+        <item>	Computer Aided Design and Manufacturing </item>
+        <item>	Advanced Manufacturing Processes </item>
+        <item>	Introduction to Bio Science and Technology </item>
+        <item>	Computer Networks </item>
+        <item>	VLSI Design </item>
+        <item>	Mobile Computing </item>
+        <item>	Machine Learning </item>
+        <item>	Image and Video Processing </item>
+        <item>	Cryptography </item>
+        <item>	Cyber Forensics </item>
+        <item>	Embedded Systems </item>
+        <item>	Computer Graphics </item>
+        <item>	Data Mining </item>
+        <item>	Networks and System Security </item>
+        <item>	Cloud Computing </item>
+        <item>	Data Analytics </item>
+        <item>	Computer Vision </item>
+        <item>	Parallel and Distributed Algorithms </item>
+        <item>  Web Development </item>
+
+    </string-array>
+    <string name="title_activity_sem_overview">sem_overview</string>
+    <string name="action_settings">Settings</string>
+    <string name="sem_1"><u><u>Sem 1</u></u></string>
+    <string name="your_cgpa">Your CGPA</string>
+    <string name="_9_0">9.0</string>
+    <string name="sem1">Sem 1</string>
+    <string name="na">N/A</string>
+    <string name="sem8">Sem 8</string>
+    <string name="sem6">Sem 6</string>
+    <string name="sem5">Sem 5</string>
+    <string name="sem4">Sem 4</string>
+    <string name="sem3">Sem 3</string>
+    <string name="sem2">Sem 2</string>
+    <string name="sem7">Sem 7</string>
+    <string name="my_performance">My Performance</string>
+    <string name="your_gpa">Your GPA :</string>
+</resources>
